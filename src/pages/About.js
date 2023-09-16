@@ -104,7 +104,7 @@ Testing Library Enthusiast: I'm a strong advocate for testing and quality assura
       <h1 className="text-3xl font-semibold mb-4 justify-center text-center mt-16 p-4">
         Technologies I've Worked with
       </h1>
-      <div className="container mx-auto flex justify-center items-center h-screen-1/2">
+      <div className="container mx-auto flex justify-center items-center h-screen-2/4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto p-8">
           {technologies.map((tech, index) => {
             return (

@@ -5,6 +5,7 @@ import Resume from "@/pages/Resume";
 import Contact from "@/pages/Contact";
 import Portfolio from "@/pages/Portfolio";
 import Intro from "@/pages/Intro";
+import Head from "next/head";
 
 export default function Home() {
   return (

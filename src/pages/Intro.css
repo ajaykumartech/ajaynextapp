@@ -1,0 +1,35 @@
+/* Custom CSS for flipping content horizontally */
+.animate-flip-horizontal {
+  animation: flipHorizontal 2s ease-in-out 2; /* 2s animation duration, 2 iterations */
+  transform-origin: center; /* Set the transform origin to the center for a smoother flip */
+
+  /* Keyframes for horizontal flip animation */
+  @keyframes flipHorizontal {
+    0%, 100% {
+      transform: scaleX(1); /* Initial and final state: no flip (normal scaleX) */
+    }
+    50% {
+      transform: scaleX(-1); /* Midpoint state: flip horizontally (negative scaleX) */
+    }
+  }
+}
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+  display: inline-block;
+}

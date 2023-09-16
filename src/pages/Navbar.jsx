@@ -38,7 +38,7 @@ function Navbar() {
             } lg:flex lg:items-center`}
           >
             <a
-              className="text-black hover:underline font-bold text-lg px-4 py-2 block lg:inline-block"
+              className="text-black hover:underline font-bold text-lg px-4 py-2 block lg:inline-block leading-normal"
               href="#portfolio"
               onClick={closeMenu}
             >
