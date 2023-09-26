@@ -4,7 +4,18 @@
     margin-bottom: 20px;
     width:auto;
     height:200px;
+
+    background-color: transparent; /* Set the initial background color */
+    transition: background-color 0.3s; /* Add a transition for background-color changes */
+    padding: 10px;
+    border: 1px solid #ddd;
   }
+
+  .tech_container:hover {
+    background-color: #1d1913;
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
 
   .tech_name {
     background-color: #f0f0f0;
@@ -12,6 +23,7 @@
     text-align: center;
     width: auto;
     border-radius: 5px;
+    font-size: 16px;
   }
 
   .icons {

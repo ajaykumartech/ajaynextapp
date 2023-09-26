@@ -5,8 +5,8 @@ import Contact from "./Contact";
 
 const GridItem = ({ imageSrc, text }) => {
   return (
-    <div className="container flex flex-col md:flex-row mb-4 mx-auto">
-      <div className="w-80 md:w-1/4 p-6">
+    <div className="container flex flex-col md:flex-row mb-4 mx-auto justify-center items-center">
+      <div className="w-80 md:w-1/4 p-4">
         <div className="bg-gray-100 hover:bg-gray-200 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 justify-center items-center">
           <img
             src={imageSrc}
@@ -15,7 +15,7 @@ const GridItem = ({ imageSrc, text }) => {
           />
         </div>
       </div>
-      <div className="w-full md:w-3/4 p-2">
+      <div className="w-full md:w-3/4 p-6">
         <div className="bg-white-100 hover:bg-gray-200 rounded-md transition duration-300 ease-in-out transform hover:scale-105">
           <p className="text-xl hover:text-2xl font-normal p-4">{text}</p>
         </div>

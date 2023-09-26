@@ -7,7 +7,7 @@ function Portfolio() {
         <h2 className="text-3xl font-semibold text-center mb-8">Portfolio</h2>
         <div className="mx-auto">
           {/* Project 1 */}
-          <div className="bg-white shadow-lg rounded-lg p-6 mb-16">
+          <div className="bg-red shadow-lg rounded-lg p-6 mb-16 group hover:hover:animate-fade-in">
             <div className="flex flex-col-reverse sm:flex-row sm:space-x-4">
               <div className="sm:w-1/2 pr-4">
                 <img
@@ -43,7 +43,7 @@ function Portfolio() {
                   Technologies & Tools Used
                 </h4>
                 {/*                <ul className="list-disc list-inside text-sm pl-5 mt-6">*/}
-                <div className="max-w-screen-lg mx-auto">
+                <div className="max-w-screen-lg mx-auto lg:overflow-scroll">
                   <div className="flex flex-wrap lg:flex-nowrap lg:space-x-4 pt-4 pb-4">
                     <div className="group mr-2 mb-6">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
@@ -75,9 +75,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          {/* Add more project divs here */}
-
-          <div className="bg-white shadow-lg rounded-lg p-6 mb-16">
+          {/* project--2 */}
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-16 group hover:hover:animate-fade-in">
             <div className="flex flex-col-reverse sm:flex-row sm:space-x-4">
               {/* <!-- Project 2 --> */}
               <div className="sm:w-1/2 pr-4">
@@ -119,7 +118,7 @@ function Portfolio() {
                         Angular
                       </span>
                     </div>
-                    <div className="group mr-2">
+                    <div className="group mr-2 mb-6">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
                         .NET
                       </span>
@@ -140,7 +139,7 @@ function Portfolio() {
             </div>
           </div>
           {/* <!-- Project 3 --> */}
-          <div className="bg-white shadow-lg rounded-lg">
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-16 group hover:hover:animate-fade-in">
             <div className="flex flex-col-reverse sm:flex-row sm:space-x-4">
               <div className="sm:w-1/2 pr-4">
                 <img
@@ -175,7 +174,7 @@ function Portfolio() {
                   Technologies & Tools Used
                 </h4>
                 {/*                <ul className="list-disc list-inside text-sm pl-5 mt-6">*/}
-                <div className="max-w-screen-lg mx-auto">
+                <div className="max-w-screen-lg mx-auto lg:overflow-scroll">
                   <div className="flex flex-wrap lg:flex-nowrap lg:space-x-4 pt-4 pb-4">
                     <div className="group mr-2 mb-6">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
@@ -190,6 +189,73 @@ function Portfolio() {
                     <div className="group mr-2">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
                         Heroku
+                      </span>
+                    </div>
+                    <div className="group mb-8 mr-2">
+                      <span className="bg-gray-900 rounded text-white px-4 py-2">
+                        MongoDB
+                      </span>
+                    </div>
+                    <div className="group">
+                      <span className="bg-gray-900 rounded text-white px-4 py-2">
+                        Figma
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*------project-4----*/}
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-16 group hover:hover:animate-fade-in">
+            <div className="flex flex-col-reverse sm:flex-row sm:space-x-4 md:flex-row md:space-x-4 lg:flex-row lg:space-x-4">
+              <div className="sm:w-1/2 w-full h-45 flex items-center pr-2 justify-center">
+                <img
+                  src="../images/clozy.png"
+                  alt="Project 3"
+                  className="object-cover"
+                />
+              </div>
+              <div className="sm:w-1/2 p-2">
+                <h3 className="text-xl font-semibold mb-2 text-center">
+                  Project 4
+                </h3>
+                <p className="text-xl font-semi mb-2">
+                  This Mobile App is a convergence of cutting-edge technologies,
+                  including ReactNative, Node.js, and MongoDB, aimed at
+                  revolutionizing the Ecommerce sectors. It serves as a
+                  groundbreaking platform where multiple Appreals and clothing
+                  companies unite to conduct their business seamlessly, all in
+                  one place. This innovative application empowers customers,
+                  company owners access with their unique credentials to
+                  purchase and sell. With individualized dashboards for each
+                  user, this prototype is designed to enhance user experience
+                  and productivity.
+                </p>
+                <p>
+                  The primary goal of this project is to create a centralized
+                  hub where multiple companies can converge, simplifying their
+                  business sales operations and enhancing collaboration.
+                </p>
+                <h4 className="text-xl font-semibold mb-2  mt-8">
+                  Technologies & Tools Used
+                </h4>
+                {/*                <ul className="list-disc list-inside text-sm pl-5 mt-6">*/}
+                <div className="max-w-screen-lg mx-auto lg:overflow-scroll">
+                  <div className="flex flex-wrap lg:flex-nowrap lg:space-x-4 pt-4 pb-4">
+                    <div className="group mr-2 mb-6">
+                      <span className="bg-gray-900 rounded text-white px-4 py-2">
+                        ReactNative
+                      </span>
+                    </div>
+                    <div className="group mr-2">
+                      <span className="bg-gray-900 rounded text-white px-4 py-2">
+                        NodeJs
+                      </span>
+                    </div>
+                    <div className="group mr-2">
+                      <span className="bg-gray-900 rounded text-white px-4 py-2">
+                        Hostinger
                       </span>
                     </div>
                     <div className="group mb-8 mr-2">

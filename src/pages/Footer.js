@@ -8,7 +8,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-4">
+    <footer className="bg-gray-900 text-white py-4 mx-auto">
     <div className="container mx-auto flex justify-between items-center">
       <p className="text-sm">&copy; 2023 Josyula Ajay Kumar</p>
       <div className="flex space-x-4 mt-2">
