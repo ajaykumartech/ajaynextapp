@@ -33,3 +33,11 @@
   animation: blink 1s infinite;
   display: inline-block;
 }
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
