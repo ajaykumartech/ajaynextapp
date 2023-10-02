@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import React, { useEffect } from "react";
 import './Portfolio.css';
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 function Portfolio() {
