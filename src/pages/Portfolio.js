@@ -13,7 +13,7 @@ function Portfolio() {
     const slide1 = gsap.timeline({
       scrollTrigger: {
         trigger: ".slide1",
-        start: "top top",
+        start: "top",
         end: "+=100%",
         pin: true, // Pin the element while in viewport
         scrub: true, // Smoothly animate the element
@@ -21,8 +21,8 @@ function Portfolio() {
     });
 
     slide1.to(".slide1", {
-      opacity: 0,
-      scale: 0.5,
+      opacity: 0.8,
+      scale: 0.7,
       duration: 1,
     });
 
@@ -37,8 +37,8 @@ function Portfolio() {
     });
 
     slide2.to(".slide2", {
-      opacity: 0,
-      scale: 0.5,
+      opacity: 0.8,
+      scale: 0.7,
       duration: 1,
     });
 
@@ -53,8 +53,8 @@ function Portfolio() {
     });
 
     slide3.to(".slide3", {
-      opacity: 0,
-      scale: 0.5,
+      opacity: 0.8,
+      scale: 0.7,
       duration: 1,
     });
     const slide4 = gsap.timeline({
@@ -68,8 +68,8 @@ function Portfolio() {
     });
 
     slide4.to(".slide4", {
-      opacity: 0,
-      scale: 0.5,
+      opacity: 0.8,
+      scale: 0.7,
       duration: 1,
     });
   }, []);

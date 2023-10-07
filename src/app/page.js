@@ -6,6 +6,7 @@ import Contact from "@/pages/Contact";
 import Portfolio from "@/pages/Portfolio";
 import Intro from "@/pages/Intro";
 import Head from "next/head";
+import Intro1 from "@/pages/Intro1";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <Navbar />
         </div>
          <Intro />
+         <Intro1 />
         <div id="about">
           <About />
         </div>

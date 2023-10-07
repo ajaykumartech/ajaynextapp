@@ -9,7 +9,52 @@ import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 
 function Intro() {
+
+
   useEffect(() => {
+    const container = document.getElementById("spiral-container");
+const content = document.querySelector(".content-to-animate");
+    // Create a GSAP timeline for the spiral animation
+const tl = gsap.timeline();
+
+// Define the number of spirals and the duration of the animation
+const numSpirals = 3;
+const duration = 2;
+
+// Define the starting and ending positions
+const startX = 0;
+const startY = 0;
+var endX = 10; // Adjust as needed
+var endY = 0;   // Adjust as needed
+
+// Calculate the angle increment for each step
+const angleIncrement = 360 * numSpirals;
+
+// Create the spiral animation
+for (let i = 0; i < numSpirals; i++) {
+    tl.to(content, {
+        duration: duration / numSpirals,
+        x: "+=" + endX,
+        y: "+=" + endY,
+        rotation: angleIncrement,
+        ease: "power1.inOut"
+    });
+    // Update the end position for the next step
+    endX *= -1;
+    endY *= -1;
+}
+
+// Repeat the animation indefinitely
+tl.repeat(1);
+
+// Adjust the animation speed if needed
+// tl.timeScale(2); // Speed up the animation
+
+// Adjust additional styles for the content element as needed
+// gsap.set(content, { /* additional styles */ });
+
+
+
     const animateElement = gsap.to(".element-class", {
       opacity: 1,
       y: 0,
@@ -89,7 +134,10 @@ function Intro() {
   }, []);
   return (
     <>
-      <div className="animate-flip-horizontal flex flex-col justify-center items-center h-screen bg-white-200 p-8">
+
+     <div id="spiral-container"> 
+
+     <div className="content-to-animate animate-flip-horizontal flex flex-col justify-center items-center h-screen bg-white-200 p-8">
         <p className="text-3xl md:text-4xl lg:text-5xl text-gray-600">
           Hello! My Name is
         </p>
@@ -108,6 +156,7 @@ function Intro() {
           I'm a Frontend Web Developer
         </p>
       </div>
+     </div>
       {/* <div className="elements-class h-1/2 bg-red-900">
         <div className="cards-container">
           <Card id="card1" title="Card 1" />
