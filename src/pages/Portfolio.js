@@ -43,8 +43,8 @@ function Portfolio() {
                   Technologies & Tools Used
                 </h4>
                 {/*                <ul className="list-disc list-inside text-sm pl-5 mt-6">*/}
-                <div className="max-w-screen-lg mx-auto lg:overflow-scroll">
-                  <div className="flex flex-wrap lg:flex-nowrap lg:space-x-4 pt-4 pb-4">
+                <div className="max-w-screen-lg mx-auto">
+                  <div className="flex flex-wrap lg:space-x-4 pt-4 pb-4">
                     <div className="group mr-2 mb-6">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
                         ReactJS
@@ -112,7 +112,7 @@ function Portfolio() {
                 </h4>
                 {/*                <ul className="list-disc list-inside text-sm pl-5 mt-6">*/}
                 <div className="max-w-screen-lg mx-auto">
-                  <div className="flex flex-wrap lg:flex-nowrap lg:space-x-4 pt-4 pb-4">
+                  <div className="flex flex-wrap lg:space-x-4 pt-4 pb-4">
                     <div className="group mr-2">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
                         Angular
@@ -174,8 +174,8 @@ function Portfolio() {
                   Technologies & Tools Used
                 </h4>
                 {/*                <ul className="list-disc list-inside text-sm pl-5 mt-6">*/}
-                <div className="max-w-screen-lg mx-auto lg:overflow-scroll">
-                  <div className="flex flex-wrap lg:flex-nowrap lg:space-x-4 pt-4 pb-4">
+                <div className="max-w-screen-lg mx-auto">
+                  <div className="flex flex-wrap lg:space-x-4 pt-4 pb-4">
                     <div className="group mr-2 mb-6">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
                         ReactJS
@@ -241,8 +241,8 @@ function Portfolio() {
                   Technologies & Tools Used
                 </h4>
                 {/*                <ul className="list-disc list-inside text-sm pl-5 mt-6">*/}
-                <div className="max-w-screen-lg mx-auto lg:overflow-scroll">
-                  <div className="flex flex-wrap lg:flex-nowrap lg:space-x-4 pt-4 pb-4">
+                <div className="max-w-screen-lg mx-auto">
+                  <div className="flex flex-wrap lg:space-x-4 pt-4 pb-4">
                     <div className="group mr-2 mb-6">
                       <span className="bg-gray-900 rounded text-white px-4 py-2">
                         ReactNative
@@ -280,3 +280,4 @@ function Portfolio() {
 }
 
 export default Portfolio;
+  
