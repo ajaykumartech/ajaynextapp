@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    swcMinify: true,
+}
 
 // next.config.js
 module.exports = {

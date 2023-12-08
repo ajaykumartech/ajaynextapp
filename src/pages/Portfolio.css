@@ -1,0 +1,46 @@
+/* Define CSS for the "slide1" class */
+.slide1 {
+    /* Add your styles for slide1 here */
+   /* Example background color for slide1 */
+    color: #0c0c0c; /* Example text color for slide1 */
+    /* Add more styles as needed */
+  }
+  
+  /* Define CSS for the "slide2" class */
+  .slide2 {
+    /* Add your styles for slide2 here */
+     /* Example background color for slide2 */
+    color: #050505; /* Example text color for slide2 */
+    /* Add more styles as needed */
+  }
+  
+  /* Define CSS for the "slide3" class */
+  .slide3 {
+    /* Add your styles for slide3 here */
+     /* Example background color for slide3 */
+    color: #0e0d0d; /* Example text color for slide3 */
+    /* Add more styles as needed */
+  }
+  
+  .slide4 {
+    /* Add your styles for slide3 here */
+   /* Example background color for slide3 */
+    color: #070707; /* Example text color for slide3 */
+    /* Add more styles as needed */
+  }
+  
+  /* Add common styles for all slides (if any) */
+  .slide1,
+  .slide2,
+  .slide3,
+  .slide4 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .radeon-effect {
+    background: linear-gradient(75deg,#5d5aee, #797777);
+    color: white; /* Text color */
+  }
