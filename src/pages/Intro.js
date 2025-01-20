@@ -153,7 +153,7 @@ tl.repeat(1);
           </div>
         </div>
         <p className="text-2xl md:text-3xl lg:text-3xl text-gray-600">
-          I'm a Frontend Web Developer
+          I'm a Full stack Developer
         </p>
       </div>
      </div>

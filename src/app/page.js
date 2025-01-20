@@ -1,3 +1,4 @@
+
 import About from "@/pages/About";
 import Navbar from "@/pages/Navbar";
 import Footer from "../pages/Footer";
@@ -8,16 +9,15 @@ import Intro from "@/pages/Intro";
 import Head from "next/head";
 import Intro1 from "@/pages/Intro1";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <body>
         <div id="home">
           {" "}
           <Navbar />
         </div>
          <Intro />
-         <Intro1 />
+         {/* <Intro1 /> */}
         <div id="about">
           <About />
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
           <Contact />
         </div>
         <Footer />
-      </body>
     </>
   );
 }
+export default Home;

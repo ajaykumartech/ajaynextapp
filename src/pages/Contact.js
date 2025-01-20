@@ -9,7 +9,8 @@ function Contact() {
     setHide(true);
     emailjs
       .sendForm(
-        "service_8cfygq7",
+        // "service_8cfygq7",
+        "service_3a27cwk",
         "template_l6kcpbq",  
         e.target,
         "OpStgdaG8nKN0ncSy"

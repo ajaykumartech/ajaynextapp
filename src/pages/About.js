@@ -93,7 +93,7 @@ function About() {
       <GridItem
         imageSrc="/images/aj.jpg" // Replace with your image URL
         text={`
-        👋 Hey there! I'm Ajay Kumar Josyula, a dedicated Frontend Developer originally from the picturesque state of Andhra Pradesh, India.\n
+        👋 Hey there! I'm Ajay Kumar Josyula, a dedicated Full stack Developer originally from the picturesque state of Andhra Pradesh, India.\n
 🎓 Armed with a master's degree in Instrumentation Technology, I ventured into the exciting realm of Software Engineering, driven by a passion for creating immersive web experiences.\n
 💻 With more than three years of hands-on experience in web development, I've had the privilege of crafting exceptional user interfaces and interactive web applications. My journey in the dynamic world of web development has equipped me with a robust skill set, including:
 React Expertise: I've mastered React, harnessing its power to build dynamic and user-centric web applications that captivate and engage users.
