@@ -7,7 +7,6 @@ import Contact from "@/pages/Contact";
 import Portfolio from "@/pages/Portfolio";
 import Intro from "@/pages/Intro";
 import Head from "next/head";
-import Intro1 from "@/pages/Intro1";
 
 const Home = () => {
   return (
@@ -17,7 +16,6 @@ const Home = () => {
           <Navbar />
         </div>
          <Intro />
-         {/* <Intro1 /> */}
         <div id="about">
           <About />
         </div>
