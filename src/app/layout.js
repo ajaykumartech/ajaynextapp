@@ -2,6 +2,7 @@ import Head from "next/head";
 import "./globals.css";
 import '../styles/fonts.css';
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,11 +19,18 @@ export default function RootLayout({ children }) {
         <meta charset="UTF-8" />
         <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="/dist/output.css" rel="stylesheet" />
-        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-       
-        <script src="https://cdn.tailwindcss.com"></script>
-      </Head>
+        {/* <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script> */}
+      
+      <Script
+          src="https://cdn.emailjs.com/dist/email.min.js"
+          strategy="beforeInteractive" // or 'afterInteractive' depending on your use case
+        />
+    <Script
+      src="https://cdn.tailwindcss.com"
+      strategy="beforeInteractive" // or 'afterInteractive' depending on your use case
+    />
+    </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );

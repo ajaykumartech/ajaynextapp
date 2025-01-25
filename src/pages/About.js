@@ -2,6 +2,7 @@ import React from "react";
 
 import "./About.css";
 import Contact from "./Contact";
+import Image from "next/image";
 
 const GridItem = ({ imageSrc, text }) => {
   return (
@@ -102,7 +103,7 @@ Testing Library Enthusiast: I'm a strong advocate for testing and quality assura
       />
       {/* Technologies */}
       <h1 className="text-3xl font-semibold mb-4 justify-center text-center mt-16 p-4">
-        Technologies I've Worked with
+        Technologies I&apos;ve Worked with
       </h1>
       <div className="container mx-auto flex justify-center items-center h-screen-2/4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto p-8">
