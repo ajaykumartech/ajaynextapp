@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
         {/* <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
         <script src="https://cdn.tailwindcss.com"></script> */}
       
-      <Script
+     
+    </Head>
+    <Script
           src="https://cdn.emailjs.com/dist/email.min.js"
           strategy="beforeInteractive" // or 'afterInteractive' depending on your use case
         />
@@ -30,7 +32,6 @@ export default function RootLayout({ children }) {
       src="https://cdn.tailwindcss.com"
       strategy="beforeInteractive" // or 'afterInteractive' depending on your use case
     />
-    </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
