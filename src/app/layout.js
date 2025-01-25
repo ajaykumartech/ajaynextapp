@@ -19,20 +19,21 @@ export default function RootLayout({ children }) {
         <meta charset="UTF-8" />
         <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-        <script src="https://cdn.tailwindcss.com"></script> */}
-    </Head>
-  
-     
-    <Script
-          src="https://cdn.emailjs.com/dist/email.min.js"
-          strategy="beforeInteractive" // or 'afterInteractive' depending on your use case
-        />
-    <Script
-      src="https://cdn.tailwindcss.com"
-      strategy="beforeInteractive" // or 'afterInteractive' depending on your use case
-    />
-      <body className={inter.className}>{children}</body>
+      </Head>
+
+      {/* Load the EmailJS script before interactive to avoid blocking */}
+      <Script
+        src="https://cdn.emailjs.com/dist/email.min.js"
+        strategy="beforeInteractive" // Or 'afterInteractive' depending on the need
+      />
+
+      {/* Load Tailwind CSS script after interactive (non-blocking) */}
+      <Script
+        src="https://cdn.tailwindcss.com"
+        strategy="afterInteractive"
+      />
+
+      <body>{children}</body>
     </html>
   );
-}   
+}
